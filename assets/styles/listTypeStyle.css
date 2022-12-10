@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.listType {
+  display: flex;
+  width: 80%;
+  height: 25px;
+  background-color: #b6ffe150;
+  
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px;
+  text-align: left;
+  color: #fff;
+
+  border-style: none;
+  border-radius: 8px;
+  outline: 0;
+}
+.listType option {
+  background-color: #101213;
+}

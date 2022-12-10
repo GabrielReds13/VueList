@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.alertAction {
+  display: flex;
+  width: 80vw;
+  height: 8vh;
+  border-left: 3px solid #fff;
+  box-shadow: 0 0 5px 0 #00000025;
+  align-content: center !important;
+  align-items: center !important;
+}
+.alertAction p {
+  width: 90%;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 15px;
+}

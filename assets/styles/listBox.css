@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
+
+  width: 80vw;
+  height: 100%;
+  background-color: #00DC8220;
+
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+.listBox h3,
+.listBox p {
+  color: #fff;
+}
+
+.dividerList {
+  width: 50%;
+  height: 2px;
+  background-color: #00819225;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

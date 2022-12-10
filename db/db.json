@@ -1,0 +1,46 @@
+{
+  "listType": [
+    {
+      "id": 1,
+      "type": "Tarefa"
+    },
+    {
+      "id": 2,
+      "type": "Atividade"
+    },
+    {
+      "id": 3,
+      "type": "Trabalho"
+    },
+    {
+      "id": 4,
+      "type": "Compra"
+    }
+  ],
+  "listStatus": [
+    {
+      "id": 1,
+      "status": false
+    }
+  ],
+  "listGenerated": [
+    {
+      "listInfo": "Teste 1",
+      "listType": "",
+      "finish": false,
+      "id": 1
+    },
+    {
+      "listInfo": "Teste 2",
+      "listType": "Trabalho",
+      "finish": false,
+      "id": 2
+    },
+    {
+      "listInfo": "Fazer trabalho escolar",
+      "listType": "Tarefa",
+      "finish": false,
+      "id": 3
+    }
+  ]
+}
