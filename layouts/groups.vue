@@ -87,7 +87,7 @@
     },
     methods: {
       async getItems() {
-        const req = await fetch("http://localhost:4000/listGenerated")
+        const req = await fetch("http://localhost:2000/listGenerated")
         const data = await req.json()
         this.itemGenerated = data
         if(this.itemGenerated[0] != null) {
@@ -122,7 +122,7 @@
           finish: this.checkboxActive
         }
         const dataJson = JSON.stringify(data)
-        const req = await fetch(`http://localhost:4000/listGenerated/${id}`, {
+        const req = await fetch(`http://localhost:2000/listGenerated/${id}`, {
           method: "FETCH",
           headers: {"Content-Type": "application/json"},
           body: dataJson
