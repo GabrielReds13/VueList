@@ -51,6 +51,7 @@
           </div>
         </div>
       </div>
+      <alertBugsApp />
 
       <button id="createList"><NuxtLink to="/createNewItem">CRIAR LISTA</NuxtLink></button>
     </div>
@@ -71,10 +72,12 @@
   import "@/assets/styles/buttonStyle.css"
 
   import nuxtIconNothing from "@/components/nuxtIconNothing.vue"
+  import alertBugsApp from "@/components/alertBugsApp.vue"
 
   export default {
     components: {
-      nuxtIconNothing
+      nuxtIconNothing,
+      alertBugsApp
     },
     data() {
       return {
