@@ -61,7 +61,7 @@
     },
     methods: {
       async getTypeLists() {
-        const req = await fetch("http://localhost:3000/listType/")
+        const req = await fetch("http://localhost:4000/listType/")
         const data = await req.json()
         this.typeLists = data
       },
@@ -74,7 +74,7 @@
           finish: this.finish
         }
         const dataJson = JSON.stringify(data)
-        const req = await fetch("http://localhost:3000/listGenerated", {
+        const req = await fetch("http://localhost:4000/listGenerated", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: dataJson
@@ -85,7 +85,7 @@
 
         setTimeout(() => {
           this.messageAlert = ""
-        }, 3000)
+        }, 5000)
         this.listInfo = null
         this.listType = null
       }

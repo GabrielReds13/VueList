@@ -41,6 +41,12 @@
       "listType": "Tarefa",
       "finish": false,
       "id": 3
+    },
+    {
+      "listInfo": "Teste 3",
+      "listType": "Trabalho",
+      "finish": false,
+      "id": 4
     }
   ]
 }
